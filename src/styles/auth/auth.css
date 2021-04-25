@@ -1,0 +1,25 @@
+.authForm {
+  width: 40%;
+  margin: 0px auto;
+}
+
+.authForm .title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.authForm button[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.authForm input {
+  margin-bottom: 10px !important;
+}
+
+.authForm .link {
+  margin-top: 10px;
+  display: block;
+}
+/*# sourceMappingURL=auth.css.map */
