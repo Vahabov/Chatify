@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { reducer as firebase } from 'react-redux-firebase';
-// import AuthReducer from './reducers/Auth';
+import channelReducer from './reducers/Channel';
 
 const RootReducer = combineReducers({
     firebase,
-    // auth: AuthReducer
+    channels: channelReducer
 })
 
 export default RootReducer
